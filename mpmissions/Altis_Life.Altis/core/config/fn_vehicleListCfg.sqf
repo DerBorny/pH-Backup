@@ -173,7 +173,8 @@ switch (_shop) do
 			["B_Heli_Light_01_F",150000],
 			["O_Heli_Light_02_unarmed_F",300000],
 			["I_Heli_Transport_02_F",1900000],
-			["I_Heli_light_03_unarmed_F",140000]
+			["I_Heli_light_03_unarmed_F",140000],
+			["O_Heli_Transport_04_box_F",3000000]
 		];
 		
 		if(license_admin) then
