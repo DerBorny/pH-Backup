@@ -221,6 +221,7 @@ class Life_Client_Core
 		class numberText {};
 		class handleItem {};
 		class fadeSound {};  //ohrenstoepsel
+		class autoSave {};  //autosave
 		class accType {};
 		class receiveItem {};
 		class giveDiff {};
