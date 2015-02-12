@@ -107,7 +107,6 @@ class Life_Client_Core
 		class captureHideout {};
 		class gather {};
 		class gatherMeth {};
-		class gatherKohle {};
 		class gatherXTC {};
 	};
 	
