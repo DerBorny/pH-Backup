@@ -66,7 +66,8 @@ switch(_shop) do
 						["FirstAidKit",nil,150],
 						["Medikit",nil,500],
 						["NVGoggles",nil,1200],
-						["B_FieldPack_ocamo",nil,3000]
+						["B_Bergen_mcamo",nil,3000],
+						["U_B_HeliPilotCoveralls",nil,10]
 					]
 				];
 			};
