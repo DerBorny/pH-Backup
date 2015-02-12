@@ -50,37 +50,7 @@ switch (_shop) do
 			["C_Offroad_01_F",12500],
 			["C_SUV_01_F",35000],
 			["C_Van_01_transport_F",40000]
-		];
-		
-		if(license_admin) then
-		{
-			_return pushBack
-			["O_APC_Tracked_02_cannon_F",1];
-			
-			_return pushBack
-			["O_APC_Tracked_02_AA_F",1];
-			
-			_return pushBack
-			["O_MBT_02_cannon_F",1];
-			
-			_return pushBack
-			["O_MRAP_02_F",1];
-			
-			_return pushBack
-			["O_MRAP_02_hmg_F",1];
-
-			_return pushBack
-			["O_MRAP_02_gmg_F",1];
-			
-			_return pushBack
-			["I_MRAP_03_F",1];
-			
-			return pushBack
-			["I_MRAP_03_hmg_F",1];
-			
-			_return pushBack
-			["I_MRAP_03_gmg_F",1];
-		};	
+		];	
 	};
 	
 	case "civ_truck":
