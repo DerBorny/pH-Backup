@@ -1,10 +1,10 @@
 waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
-player createDiarySubject ["changelog","Changelog"];
+//player createDiarySubject ["changelog","Changelog"];
 player createDiarySubject ["serverrules","Allgemeine Regeln"];
 player createDiarySubject ["policerules","Polizeiregeln"];
-player createDiarySubject ["safezones","SafeZones"];
+//player createDiarySubject ["safezones","SafeZones"];
 //player createDiarySubject ["civrules","Civilian Rules"];
 player createDiarySubject ["illegalitems","Illegale Aktivitäten"];
 //player createDiarySubject ["gangrules","Gang Rules"];
@@ -76,132 +76,129 @@ player createDiarySubject ["controls","Hotkeys"];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Bannable Offenses", 
+			"100% BAN Gründe", 
 				"
-				Consider this your one and only warning.<br/><br/>
+				Betrachtet das als eure erste Warnung.<br/><br/>
 				
 				1. Hacking<br/>
 				2. Cheating<br/>
-				3. Exploiting (See 'Exploits')<br/>
-				4. Being kicked 3 or more times.<br/><br/>
+				3. Exploiting (Siehe 'Exploits')<br/>
+				4. Wenn man mehr als 3 mal gekickt werden musste.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Cop Interaction", 
+			"Interaktionen mit Polizisten", 
 				"
 				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
 				
-				1. Civilians can be arrested for looking in cops' backpacks/vehicles. Constantly doing this will result in your removal from the server.<br/>
-				2. Civilians can be arrested for following cops in game in order to give away their position.<br/>
-				3. Civilians or Rebels who take up arms to kill cops in town or elsewhere for no RP reason will be considered RDMing. See RDMing section.<br/>
-				4. Following and or harassing cops for long periods of time will be considered griefing and/or spamming, and will result in your removal from the server.<br/>
-				5. Actively blocking cops from doing their duties can lead to your arrest. Constantly doing this will result in your removal from the server.<br/><br/>
+				1. Zivilisten/Banditen können für den Versuch in Polizeirucksäcke/Leichen zu schauen ins Gefängnis gesteckt werden.<br/>
+				2. Zivilisten/Banditen können für das Verfolgen von Polizisten um deren Position durchzugeben ins Gefängnis gesteckt werden.<br/>
+				3. Zivilisten/Banditen die versuchen Cops innerhalb von Städten ohne RP-Grund zu töten, werden nach der RDM Regel bestraft.<br/>
+				4. Einen Polizisten oder anderen Spieler in jeglicher Form dauerhaft zu Verfolgen um ihn zu trollen führt ebenfalls zum Kick/Ban.<br/>
+				5. Dauerhaftes abhalten der Cops von ihrer Arbeit, in dem man sie unnötig belästigt kann zum kick/ban führen.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Boats", 
+			"Boote", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Verstöße können mit einem Kick/Ban bestraft werden.<br/><br/>
 				
-				1. Repeatedly pushing boats without permission.<br/>
-				2. Pushing a boat with the intention of hurting or killing someone. This is not RP, it is just a flaw in the mechanics.<br/>
-				3. Purposefully running over swimmers/divers.<br/><br/>
+				1. Anschieben von Booten ohne Erlaubnis<br/>
+				2. Ein Boot anschieben um jemanden zu töten oder zu verletzen ist VRDM.<br/>
+				3. Mit Booten dürfen keine Spieler überfahren werden, geschweige denn getötet.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Aviation", 
+			"Luftverkehr", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Verstöße können mit einem Kick/Ban bestraft werden.<br/><br/>
 				
-				1. Purposefully ramming a helicopter into anything. Other helicopters, vehicles, buildings.<br/>
-				2. Flying below 150m over the city constantly. Once is illegal, more than that you risk crashing into the city, thus against server rules.<br/>
-				3. Stealing helicopters without proper warning and significant time for the driver to lock the vehicle. If they land and run away without locking, fine, if they just get out and you get in before they get a chance to lock it, no no.<br/><br/>
+				1. Absichtliches Rammen mit Luftfahrzeugen ist in jeglicher Form verboten, keine anderen Luft oder Bodenfahrzeuge!<br/>
+				2. In der Stadt unter 150m zu fliegen ist illegal. Du kannst dafür abgeschossen werden. (Nach Warnung!)<br/>
+				3. Helikopter zu stehlen wenn der Eigentümer keine Chance dazu hatte ihn abzuschließen ist nicht erlaubt, wenn er wegläuft und ihn offenlässt ist das was anderes. Dann schnapp ihn dir.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Vehicles", 
+			"Fahrzeuge", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Verstöße können mit einem Kick/Ban bestraft werden.<br/><br/>
 				
-				1. Purposefully running people over (VRDM). There are accidents, and then there is going out of your way to run someone over.<br/>
-				2. Purposefully throwing yourself in front of vehicles in order to die/get hurt.<br/>
-				3. Ramming into other vehicles in order to cause an explosion.<br/>
-				4. Constantly trying to enter vehicles that do not belong to you in order to grief the vehicle owner, and not trying to RP.<br/>
-				5. Stealing a vehicle just to crash it or otherwise destroy it.<br/>
-				6. Purchasing multiple vehicles for the purpose of doing any of the above.<br/>
-				7. The only reason for shooting at a vehicle would be to disable it and/or fire warning shots in a role-play scenario.You are not to deliberately destroy enemies vehicles.<br/><br/>
+				1. Absichtliches Überfahren! Es gibt Unfälle, das ist klar, aber überfahren geht garnicht! (VRDM!!)<br/>
+				2. Sich selbst mit Absicht vor Fahrzeuge werfen wird bei wiederholung zum Ban führen<br/>
+				3. Jemanden mit Absicht so sehr zu rammen um eine Explosion zu verursachen<br/>
+				4. Ein Fahrzeug stehlen nur um es zu zerstören.<br/>
+				5. Gestohlene Fahrzeuge dürfen nur verwendet, verkauft oder irgendwo abgestellt werden, nicht zerstört.<br/>
+				6. Der EINZIGE Grund warum auf ein Fahrzeug schießen darf ist, um es lahm zu legen - nicht um es zu zerstören.<br/><br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Communication Rules", 
+			"Kommunikationsregeln", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Verstöße können mit einem Kick/Ban bestraft werden.<br/><br/>
 				
-				1. Side Chat may not be used to play music or otherwise micspam.<br/>
-				2. Spamming any chat channel will result in your removal.<br/>
-				4. Teamspeak channels are split up into areas for a reason. Cops must be in the cop channels at all times.<br/>
-				5. Civilians cannot be in any cop channels on teamspeak in order to gather information on their location or movements. Civs caught doing this will be removed the channel. Repeat offenders can be kicked or banned from both the game and teamspeak.<br/><br/>
+				1. Im Side-Chat darf NICHT gesprochen werden - NUR geschrieben!<br/>
+				2. In KEINEM Channel darf gespammt oder Musik abgespielt werden.<br/>
+				4. TeamSpeak Channel sind aufgeteilt und Cops haben im Dienst nichts bei Zivilisten zu suchen und umgekehrt.<br/>
 				"
 		]
 	];
 	
 	player createDiaryRecord ["serverrules",
 		[
-			"Random Deathmatching (RDM)", 
+			"Random Deathmatch (RDM)", 
 				"
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Verstöße können mit einem Kick/Ban bestraft werden.<br/><br/>
 				
-				1. Killing anyone without a roleplay cause.<br/>
-				2. Declaring a rebellion is not a cause to kill anyone, even cops.<br/>
-				3. Cops and civilians/rebels can only commence in a shootout if there are reasons relating to a crime.<br/>
-				4. If you are killed in the crossfire of a fight, it is not RDM.<br/>
-				5. Killing someone in an attempt to protect yourself or others is not RDMing.<br/>
-				6. Shooting a player without giving reasonable time to follow demands is considered RDM.<br/><br/>
+				1. Einfach jemanden töten ohne jeglichen Hintergrund<br/>
+				2. Nur weil man Bandit oder Cop ist, heißt das nicht dass Hintergrund genug ist.<br/>
+				3. Polizisten dürfen das feuer auf Zivilisten/Banditen nur eröffnen wenn diese Straftaten begangen haben die dies rechtfertigen.<br/>
+				4. Wenn du im Kreuzfeuer stirbst und nicht dazu gehört, ist das kein RDM - hau ab da!<br/>
+				5. Wenn jemand auf dich schießt oder dich bedroht, darf man sich und andere verteidigen (die ebenfalls bedroht wurden).<br/>
+				6. Jemanden zu erschießen ohne ihm Zeit zu geben zu reagieren, ist auch RDM.<br/><br/>
 				
-				These are all judged by admins on a case by case basis.<br/><br/>
 				"
 		]
 	];
 	player createDiaryRecord ["serverrules",
 		[
-			"New Life Rule", 
+			"New Life Regel", 
 				"
-				The New Life Rule applies to police and civilians.<br/><br/>
+				Die New-Life-Regel betrifft Zivilisten und Polizisten.<br/><br/>
 				
-				Items on this list may result in your removal from the server and/or ban, based on the admins discretion.<br/><br/>
+				Verstöße können mit einem Kick/Ban bestraft werden.<br/><br/>
 
-				1. If you are killed you must wait 15 minutes before returning to the scene of your death.<br/>
-				2. If you die during roleplay your past crimes are forgotten, but you also cannot seek revenge.<br/>
-				3. If you are RDM'd, it is not a new life.<br/>
-				4. If you manually respawn, it is not a new life.<br/>
-				5. If you purposefully kill yourself to avoid roleplay, it is not a new life.<br/><br/>
+				1. Wenn du gestorben bist, darfst du dich erst nach 15 Minuten zum Ort des geschehens begeben.<br/>
+				2. Wenn du während RP stirbst, dann ist das so - du beginnst ein neues Leben, keine Rache!<br/>
+				3. Wenn du durch einen RDM/VRDM gestorben bist, gilt keine New-Life-Regel.<br/>
+				4. Wenn du wiederbelebt wirst, gilt keine New-Life-Regel.<br/>
+				5. Wenn du dich selbst tötest, gilt keine New-Life-Regel.<br/><br/>
 				"
 		]
 	];
 
 	player createDiaryRecord ["serverrules",
 		[
-			"Don't Be A Dick!", 
+			"Sei kein Idiot!!", 
 				"
-				If an admin has to tell you that you are being a dick, you are doing dickish things.<br/>
-				Causing others grief, disrupting roleplay, the list goes on.<br/>
-				Just don't be a dick okay?<br/>
-				This rule may be invoked at an admin's discretion.<br/><br/>
+				Wenn ein Admin dich ermahnen muss, hast du offensichtlich etwas falsch gemacht<br/>
+				Warum auch immer, es kann viele Gründe haben...<br/>
+				Sei einfach kein Idiot, benimm dich und raub niemandem den Spielspaß.<br/>
+				Nur weil etwas in den Regeln nicht erwähnt ist, heißt es nicht das man es darf.<br/><br/>
 				"
 		]
 	];
@@ -565,7 +562,7 @@ player createDiarySubject ["controls","Hotkeys"];
 				SHIFT + G: Jemanden umhauen (wenn Civ)<br/>
 				SHIFT + L: Blaulicht (wenn Cop)<br/>
 				SHIFT + H: Steckt Waffe weg<br/>
-				SHIFT + P: Ohrenstöpsel<br/>
+				SHIFT + BILD-AUF: Ohrenstöpsel<br/>
 				
 				"
 		]
