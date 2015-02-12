@@ -35,7 +35,11 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport06_co.paa","civ"],
-			["#(ai,64,64,1)Fresnel(1.3,7)","cop"]
+			["textures\cops\hatchback_Polizei.jpg","cop"],
+			["textures\zivi\hatchback\kitty_hatchback.jpg","civ"],
+			["textures\zivi\hatchback\monster.jpg","civ"],
+			["textures\zivi\hatchback\nature.jpg","civ"],
+			["textures\zivi\hatchback\polygon.jpg","civ"]	
 		];
 	};
 		

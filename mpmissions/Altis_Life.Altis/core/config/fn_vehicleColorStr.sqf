@@ -53,7 +53,11 @@ switch (_vehicle) do
 			case 3: {_color = "Black / White"};
 			case 4: {_color = "Tan"};
 			case 5: {_color = "Green"};
-			case 6: {_color = "Cop"};
+			case 6: {_color = "Polizei"};
+			case 7: {_color = "Kitty"};
+			case 8: {_color = "Monster"};
+			case 9: {_color = "Natur"};
+			case 10: {_color = "Polygon"};
 		};
 	};
 	
