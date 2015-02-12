@@ -89,6 +89,18 @@ life_market_resources = [
 			["glass",1]
 		] 
 	],
+	
+	["baeckerei", 1900, 950, 2850, 4, 3,
+		[ 
+			["diamondc",1], 
+			["oilp",1],
+			["iron_r",1],
+			["copper_r",1],
+			["salt_r",1],
+			["glass",1],
+			["cement",1]
+		] 
+	],
 /////////////////////////
 	
 	["turtle", 3000, 1500,4500, 4, 4,  
