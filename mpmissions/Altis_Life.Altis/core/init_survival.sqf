@@ -44,6 +44,16 @@
 
 [] spawn
 {
+private["_bp","_load","_cfg"];while{true} do{waitUntil {backpack player != "B_Bergen_mcamo"};
+_bp = backpack player;_cfg = getNumber(configFile >> "CfgVehicles" >> (backpack player) >> "maximumload");
+_load = round(_cfg / 4);		
+life_maxWeight = life_maxWeightT + _load;
+if(playerSide == independent) then {(unitBackpack player) setObjectTextureGlobal [0,"textures\medic_rucksack.paa"];};
+waitUntil {backpack player != _bp};
+if(backpack player == "") then 	{life_maxWeight = life_maxWeightT;};};};
+
+[] spawn
+{
 	private["_bp","_load","_cfg"];
 	while{true} do
 	{
@@ -52,6 +62,17 @@
 		_cfg = getNumber(configFile >> "CfgVehicles" >> (backpack player) >> "maximumload");
 		_load = round(_cfg / 8);
 		life_maxWeight = life_maxWeightT + _load;
+		waitUntil {backpack player != _bp};
+		if (backpack player == "B_AssaultPack_cbr") then { _load = 10; };
+		if (backpack player == "B_Kitbag_mcamo") then { _load = 25; };
+		if (backpack player == "B_TacticalPack_oli") then { _load = 30; };
+		if (backpack player == "B_FieldPack_ocamo") then { _load = 30; };
+		if (backpack player == "B_FieldPack_blk") then { _load = 100; };
+		if (backpack player == "B_Bergen_sgg") then { _load = 40; };
+		if (backpack player == "B_Kitbag_cbr") then { _load = 45; };
+		if (backpack player == "B_Carryall_oli") then { _load = 50; };
+		if (backpack player == "B_Carryall_khk") then { _load = 50; };
+		life_maxWeight = life_maxWeightT + _load + 30;
 		waitUntil {backpack player != _bp};
 		if(backpack player == "") then 
 		{
