@@ -569,6 +569,14 @@
 			<Italian>Admin-Lizenz</Italian>
 			<Portuguese>Admin-Lizenz</Portuguese>
 		</Key>
+			<Key ID="STR_License_Gang">
+			<Original>Gang-Lizenz</Original>
+			<English>Gang-Lizenz</English>
+			<German>Gang-Lizenz</German>
+			<French>Gang-Lizenz</French>
+			<Italian>Gang-Lizenz</Italian>
+			<Portuguese>Gang-Lizenz</Portuguese>
+		</Key>
 		<Key ID="STR_GNOTF_CaptureCancel">
 			<Original>Capturing cancelled</Original>
 			<English>Capturing cancelled</English>

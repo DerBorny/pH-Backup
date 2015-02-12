@@ -77,6 +77,7 @@ switch (_var) do
 	case "license_civ_heroin": {(localize "STR_License_Heroin")};
 	case "license_civ_baeckerei": {(localize "STR_License_Baeckerei")};
 	case "license_civ_oil": {(localize "STR_License_Oil")};
+	case "license_civ_gang": {(localize "STR_License_Gang")};
 	case "license_civ_dive": {(localize "STR_License_Diving")};
 	case "license_civ_boat": {(localize "STR_License_Boat")};
 	case "license_civ_gun": {(localize "STR_License_Firearm")};
