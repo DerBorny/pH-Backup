@@ -107,5 +107,3 @@ life_fnc_garageRefund = compileFinal
 [] execVM "core\init_survival.sqf";
 
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
-
-[] execVM "scripts\monitor.sqf";
