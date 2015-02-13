@@ -20,6 +20,7 @@ switch (_side) do
 			["cop_spawn_2","Pyrgos HQ","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
 			["cop_spawn_3","Athira OP","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_airbase","Airbase HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
+			["cop_sr_spawn","Schießstand","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
 			["cop_spawn_5","HW Patrol","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];
 	};
@@ -54,8 +55,6 @@ switch (_side) do
 		_ret = [
 					["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 					["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-					["civ_spawn_5","Küstenmarkt","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-					["civ_spawn_6","Airfield","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 					["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 					["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 				];
@@ -74,10 +73,11 @@ switch (_side) do
 		
 		
 		  //Hier könnte man z.B. einen Spawnpunkt für gelistete Gangs anhand der PUID definieren
-		if((getPlayerUID player) in ["76561198000645748","76561198041327266","76561198136832612","#############################"])then {
+		if((getPlayerUID player) in ["76561198000645748","76561198041327266","#############################","#############################"])then {
 			_ret = _ret + [
 				["dev_spawn_insel","DEV Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-					["ph_spawn","pH | Base","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+					["ph_spawn","pH | Base","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+					["dev_airfield_spawn","pH | Jet-Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			  ];
 		};
 	 };
