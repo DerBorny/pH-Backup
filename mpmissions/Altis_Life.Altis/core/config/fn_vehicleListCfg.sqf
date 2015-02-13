@@ -142,6 +142,40 @@ switch (_shop) do
 		[
 			["B_Heli_Light_01_F",150000],
 			["O_Heli_Light_02_unarmed_F",300000],
+			["I_Heli_Transport_02_F",1900000]
+		];
+		
+		if(license_admin) then
+		{
+			_return pushBack
+			["O_Plane_CAS_02_F",1];
+			
+			_return pushBack
+			["O_Heli_Attack_02_black_F",1];
+			
+			_return pushBack
+			["B_Heli_Transport_01_camo_F",1];
+			
+			_return pushBack
+			["O_Heli_Transport_04_F",1];
+
+			_return pushBack
+			["O_Heli_Transport_04_box_F",1];
+			
+			return pushBack
+			["O_Heli_Transport_04_repair_F",1];
+			
+			_return pushBack
+			["B_Heli_Transport_03_F",1];		
+	};
+	};
+	
+	case "reb_air":
+	{
+		_return =
+		[
+			["B_Heli_Light_01_F",150000],
+			["O_Heli_Light_02_unarmed_F",300000],
 			["I_Heli_Transport_02_F",1900000],
 			["I_Heli_light_03_unarmed_F",140000],
 			["O_Heli_Transport_04_box_F",3000000]
@@ -168,8 +202,8 @@ switch (_shop) do
 			["O_Heli_Transport_04_repair_F",1];
 			
 			_return pushBack
-			["B_Heli_Transport_03_F",1];
-		};	
+			["B_Heli_Transport_03_F",1];		
+	};
 	};
 	
 	case "cop_air":
